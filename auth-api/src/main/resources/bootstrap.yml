@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: iyun-anche-auth
+  cloud:
+    nacos:
+      config:
+        server-addr: 118.190.75.106:8848
+        shared-dataids: redis-config.yaml,iyun-anche-auth.yaml
+        refreshable-dataids: redis-config.yaml,iyun-anche-auth.yaml
+#        namespace: 1be59104-34f4-46cb-8e95-f5ba0f775a92
+      discovery:
+        server-addr: 118.190.75.106:8848
+
+#security:
+#  oauth2:
+#    resource:
+#      user-info-uri:  http://127.0.0.1:10102/token/member
+#      prefer-token-info: false
+
+
